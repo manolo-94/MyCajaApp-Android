@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.lpdigital.mycaja.presentation.home.ui.HomeFragment"
+        android:label="@string/lb_inicio" />
+
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.lpdigital.mycaja.presentation.product.ui.ProductFragment"
+        android:label="@string/lb_productos"/>
+
+    <fragment
+        android:id="@+id/saleFragment"
+        android:name="com.lpdigital.mycaja.presentation.sale.ui.SaleFragment"
+        android:label="@string/lb_ventas"/>
+
+    <fragment
+        android:id="@+id/historySaleFragment"
+        android:name="com.lpdigital.mycaja.presentation.history_sale.ui.HistorySaleFragment"
+        android:label="@string/lb_historial_de_ventas"/>
+
+</navigation>

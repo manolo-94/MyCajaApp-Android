@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <style name="Theme.MyCaja" parent="android:Theme.Material.Light.NoActionBar" />-->
+
+    <style name="Theme.MyCaja" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- O también puedes usar -->
+        <!-- parent="Theme.MaterialComponents.DayNight.NoActionBar" -->
+
+        <!-- Personaliza tus colores aquí -->
+        <item name="colorPrimary">@color/purple_700</item>
+        <item name="colorPrimaryVariant">@color/purple_200</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>
