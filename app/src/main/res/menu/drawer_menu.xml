@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:title="@string/lb_inicio"/>
+
+    <item
+        android:id="@+id/productFragment"
+        android:title="@string/lb_productos"/>
+
+    <item
+        android:id="@+id/saleFragment"
+        android:title="@string/lb_ventas" />
+
+    <item
+        android:id="@+id/historySaleFragment"
+        android:title="@string/lb_historial_de_ventas"/>
+
+</menu>
